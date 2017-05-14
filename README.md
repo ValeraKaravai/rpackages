@@ -1,14 +1,33 @@
----
-title: "Package"
-output: 
-  html_document:
-    toc: true
----
-
 # Описание
 
 * `Rpackage.md` содержит презентацию, рассказывающую о этапах создания пакета в R с помощью библиотеки devtools. Ниже можно найти краткое описание презентации.
 * Пример созданного пакета: https://github.com/ValeraKaravai/bunny
+
+Содержание
+=================
+
+   * [Описание](#Описание)
+   * [Интро](#Интро)
+   * [Structure](#structure)
+      * [Name](#name)
+      * [Create](#create)
+      * [What is a package?](#what-is-a-package)
+      * [Bundled packages](#bundled-packages)
+      * [Binary packages](#binary-packages)
+      * [Installed packages](#installed-packages)
+      * [In memory packages](#in-memory-packages)
+      * [What is a library?](#what-is-a-library)
+   * [R/](#r)
+      * [R code wotkflow](#r-code-wotkflow)
+      * [Organising your functions and code](#organising-your-functions-and-code)
+      * [The R landscape](#the-r-landscape)
+   * [Package metadata](#package-metadata)
+      * [Dependencies: What does your package need?](#dependencies-what-does-your-package-need)
+      * [Documents data](#documents-data)
+   * [Namespace](#namespace)
+      * [Search path](#search-path)
+      * [Namespace](#namespace-1)
+      * [External data](#external-data)
 
 # Интро
 
